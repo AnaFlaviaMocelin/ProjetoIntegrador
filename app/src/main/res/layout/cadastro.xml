@@ -9,7 +9,7 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/Titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/Nome"
         android:layout_width="280dp"
         android:layout_height="36dp"
         android:layout_marginStart="52dp"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/Telefone"
         android:layout_width="280dp"
         android:layout_height="36dp"
         android:layout_marginStart="52dp"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/Email"
         android:layout_width="280dp"
         android:layout_height="36dp"
         android:layout_marginStart="52dp"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/ConfirmaEmail"
         android:layout_width="280dp"
         android:layout_height="36dp"
         android:layout_marginStart="52dp"
@@ -94,7 +94,7 @@
         app:layout_constraintVertical_bias="0.187" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/Senha"
         android:layout_width="280dp"
         android:layout_height="36dp"
         android:layout_marginStart="52dp"
@@ -112,7 +112,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/ConfirmaSenha"
         android:layout_width="280dp"
         android:layout_height="36dp"
         android:layout_marginStart="52dp"
@@ -130,7 +130,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/TextNome"
         android:layout_width="wrap_content"
         android:layout_height="27dp"
         android:layout_marginStart="62dp"
@@ -146,7 +146,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/TextTelefone"
         android:layout_width="wrap_content"
         android:layout_height="27dp"
         android:layout_marginStart="62dp"
@@ -161,7 +161,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/TextEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -178,7 +178,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/TextConfirmaEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -195,7 +195,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/TextSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -212,7 +212,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/TextConfirmaSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -229,7 +229,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/Voltar"
         android:layout_width="68dp"
         android:layout_height="61dp"
         android:layout_marginStart="16dp"
@@ -244,7 +244,7 @@
         app:srcCompat="@drawable/frame__2_" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/Botao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
@@ -260,7 +260,7 @@
         app:srcCompat="@drawable/rectangle_11" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/TextEnvia"
         android:layout_width="53dp"
         android:layout_height="27dp"
         android:layout_marginStart="169dp"
