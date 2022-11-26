@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#A2C1A3"
+    android:padding="">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:background="#3B6B41"
+        android:backgroundTint="#3B6B41"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:autoText="false"
+            android:fontFamily="@font/adamina"
+            android:text="Traços e Fios "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textViewe"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:foregroundTint="#0D470F"
+        android:text="CONFIRMAR AGENDAMENTO"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_12"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:fontFamily="@font/adamina"
+        android:text="Nome"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_15"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicos"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIO A FIO"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLUME BRASILEIRO"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLUME RUSSO"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_27"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_27"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORARIO"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:20"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:text="10:20"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundTint="#0D470F"
+        android:text="TELEFONE PARA CONTATO"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_31"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(41) 9 9506-3066"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/rectangle_11"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/rectangle_11"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:text="CONFIRMAR"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="59dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/frame__2_"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="59dp"
+        android:layout_height="20dp"
+        android:rotationX="-186"
+        android:rotationY="-182"
+        app:srcCompat="@drawable/frame__2_"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
