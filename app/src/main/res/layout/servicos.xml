@@ -215,4 +215,28 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="59dp"
+        android:layout_height="47dp"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="680dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
