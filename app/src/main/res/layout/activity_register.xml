@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/transparent">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/text_Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="133dp"
+        android:foregroundTint="#0D470F"
+        android:text="Cadastro"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_Nome"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/input_text_radius"
+        android:hint="Nome"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Telefone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_Telefone"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/input_text_radius"
+        android:hint="Telefone"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_Email"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/input_text_radius"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_ConfirmaEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_ConfirmaEmail"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/input_text_radius"
+        android:hint="Confirmar e-mail"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_Senha"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:background="@drawable/input_text_radius"
+        android:hint="Senha"
+        android:layout_marginBottom="32dp"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_ConfirmaSenha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_ConfirmaSenha"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/input_text_radius"
+        android:hint="Confirmar senha"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/register_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/Voltar"
+        android:layout_width="68dp"
+        android:layout_height="61dp"
+        android:rotationY="-173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frame__2_" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="45dp"
+        android:text="Cadastrar"
+        android:backgroundTint="#3B6B41"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_11" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
