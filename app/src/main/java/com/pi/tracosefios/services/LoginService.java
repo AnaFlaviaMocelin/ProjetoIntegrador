@@ -14,8 +14,6 @@ public class LoginService {
 
     public FirebaseUser login(String email, String password) {
         firebaseLogin(email,  password);
-
-
         return user;
     }
 
@@ -31,8 +29,8 @@ public class LoginService {
            });
 
             if(task.isSuccessful()) {
-                user = nAuth.getCurrentUser();
-                System.out.println("Usuário locago com sucesso");
+                this.user = nAuth.getCurrentUser();
+                System.out.println("Usuário logado com sucesso!");
            }
         });
     }

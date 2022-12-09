@@ -9,6 +9,7 @@ import android.util.Patterns;
 import android.view.Window;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.pi.tracosefios.databinding.ActivityRegisterBinding;
 import com.pi.tracosefios.services.RegisterService;
 
@@ -29,7 +30,14 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityRegisterBinding.inflate(getLayoutInflater());
+        Window window = getWindow();
+        window.setBackgroundDrawableResource(R.drawable.gradient);
         setContentView(binding.getRoot());
+
+
+        Toolbar toolbar = binding.toolbar;
+        toolbar.setTitle("");
+        setSupportActionBar(toolbar);
 
 
         binding.Voltar.setOnClickListener(view -> {

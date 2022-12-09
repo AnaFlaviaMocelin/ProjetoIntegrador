@@ -5,18 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#A2C1A3"
+    android:background="#a9d1af"
     android:padding="0dp">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#a9d1af"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="#a9d1af">
+
+    </androidx.appcompat.widget.Toolbar>
 
     <RelativeLayout
         android:id="@+id/header_app"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/back_button"
+            android:id="@+id/logout_button"
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@drawable/frame__3_"
@@ -39,7 +51,7 @@
             android:id="@+id/add_button"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/about_icon"
+            android:src="@drawable/add_icon"
             android:layout_alignParentEnd="true"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -57,7 +69,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header_app"
-        tools:listitem="@layout/list_item" />
+        />
+
+    <TextView
+        android:id="@+id/empty_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:foregroundTint="#0D470F"
+        android:text="Não existem serviços cadastrados"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
